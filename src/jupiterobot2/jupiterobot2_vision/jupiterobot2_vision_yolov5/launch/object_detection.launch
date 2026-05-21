@@ -1,0 +1,11 @@
+<launch>
+  <node name="object_detection" pkg="jupiterobot2_vision_yolov5" type="object_detection_shopping.py" respawn="false" output="screen"/>
+  <!-- Shopping assistant node -->
+  <!-- <node name="shopping_assistant" pkg="jupiterobot2_vision_yolov5" type="shopping_list.py" respawn="false" output="screen"/> -->
+<!-- <node 
+    name="object_postprocessing" 
+    pkg="jupiterobot2_vision_yolov5" 
+    type="object_postprocessing.py" 
+    output="screen"
+  /> -->
+</launch>

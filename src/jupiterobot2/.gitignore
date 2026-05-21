@@ -1,0 +1,9 @@
+distilgpt2/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+__pycache__/
+build/
+devel/
+install/
